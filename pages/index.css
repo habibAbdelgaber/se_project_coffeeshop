@@ -166,34 +166,30 @@
   color: #fff;
 }
 
-.recipes__videos {
-  margin: 0;
+.recipes__videos{
+  margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 215px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  column-gap: 40px;
+  row-gap: 24px;
+
+}
+
+.recipes__videos-left, .recipes__videos-right {
+  margin: 0;
 }
 
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
-.recipes__iframe {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  gap: 24px;
-}
 
-.recipes__iframe-eropress-recipe,
-.recipes__iframe-french-press-recipe {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
+
 
 .recipes__caption {
   margin: 0;
