@@ -101,7 +101,7 @@
           <fieldset class="form__fieldset">
             <label for="guests" class="form__label">Number of guests*</label>
             <label class="form__label-guests">
-              <input type="text" placeholder="1-8" min="1" max="8" id="guests" name="guests" class="form__input"
+              <input type="number" placeholder="1-8" min="1" max="8" id="guests" name="guests" class="form__input"
                 required>
             </label>
           </fieldset>
@@ -116,10 +116,10 @@
               placeholder="email@email.com">
           </fieldset>
           <button type="submit" class="form__button">Book a table</button>
-          <label class="form__label_checkbox_content">
-            <input type="checkbox" name="checkbox" id="checkbox" class="form__input_type_checkbox">
-            <span class="form__custom_checkbox"></span>
-            <p class="form__text">I agree with the terms of use</p>
+          <label class="form__label form__label_checkbox_content">
+            <input type="checkbox" name="checkbox" id="checkbox" class="form__input form__input_type_checkbox">
+            <span class="form__input form__input_custom_checkbox"></span>
+            <label class="form__label form__label-text">I agree with the terms of use</label>
           </label>
 
         </form>

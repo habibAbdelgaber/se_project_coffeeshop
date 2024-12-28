@@ -321,7 +321,7 @@
 
 }
 
-.form__text {
+.form__label-text {
   margin: 0;
 }
 
@@ -345,7 +345,7 @@
   position: relative;
 }
 
-.form__custom_checkbox {
+.form__input_custom_checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
@@ -353,7 +353,7 @@
 }
 
 
-.form__input_type_checkbox:checked + .form__custom_checkbox {
+.form__input_type_checkbox:checked + .form__input_custom_checkbox {
   background-color: #1878DC;
   background-image: url('../images/check.svg');
   background-size: 50%;
@@ -361,7 +361,7 @@
   background-position: center;
 }
 
-.form__input_type_checkbox:checked + .form__custom_checkbox::after {
+.form__input_type_checkbox:checked + .form__input_custom_checkbox::after {
   opacity: 1;
 }
 
