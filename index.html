@@ -90,7 +90,40 @@
           </div>
         </div>
       </section>
-      <section class="reservasion" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <h2 class="reservation__title">Book a table</h2>
+        <form class="reservation__form form">
+          <fieldset class="form__fieldset">
+            <label for="name-surname" class="form__label">Name*</label>
+            <input type="text" placeholder="Name Surname" id="name-surname" name="name-surname" class="form__input"
+              required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label for="guests" class="form__label">Number of guests*</label>
+            <label class="form__label-guests">
+              <input type="text" placeholder="1-8" min="1" max="8" id="guests" name="guests" class="form__input"
+                required>
+            </label>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label for="date-time" class="form__label">Date & time*</label>
+            <input type="datetime-local" id="date-time" name="date-time" class="form__input form__input_type_time-time"
+              required>
+          </fieldset>
+          <fieldset class="form__fieldset">
+            <label for="email" class="form__label">Your email*</label>
+            <input type="email" name="email" id="email" class="form__input form__input_type_email"
+              placeholder="email@email.com">
+          </fieldset>
+          <button type="submit" class="form__button">Book a table</button>
+          <label class="form__label_checkbox_content">
+            <input type="checkbox" name="checkbox" id="checkbox" class="form__input_type_checkbox">
+            <span class="form__custom_checkbox"></span>
+            <p class="form__text">I agree with the terms of use</p>
+          </label>
+
+        </form>
+      </section>
       <section class="menu" id="menu"></section>
       <section class="about" id="about"></section>
     </main>
