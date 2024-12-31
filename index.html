@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Coffee Shop</title>
   <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="vendor/normalize.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -66,7 +65,10 @@
         </p>
       </div>
     </header>
+    <!-- End of header -->
+    <!-- Main Body -->
     <main class="content">
+      <!-- Recipes section -->
       <section class="recipes" id="recipes">
         <h2 class="recipes__title">Recipes</h2>
         <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
@@ -90,6 +92,8 @@
           </div>
         </div>
       </section>
+      <!-- End of recipes -->
+      <!-- Reservation section -->
       <section class="reservation" id="reservation">
         <h2 class="reservation__title">Book a table</h2>
         <form class="reservation__form form">
@@ -121,13 +125,207 @@
             <span class="form__input form__input_custom_checkbox"></span>
             <span class="form__label form__label-text">I agree with the terms of use</span>
           </label>
-
         </form>
       </section>
-      <section class="menu" id="menu"></section>
-      <section class="about" id="about"></section>
+      <!-- End of reservation -->
+      <!-- Menu section -->
+      <section class="menu" id="menu">
+        <h2 class="menu__title">Menu</h2>
+        <h3 class="menu__subtitle">
+          We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable
+          cups. All teas from our collection are $2/cup.
+        </h3>
+        <div class="menu__cards">
+          <div class="card">
+            <h3 class="card__title">Filter</h3>
+            <ul class="card__list">
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Regular (12 oz)
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $1
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Large (16 oz)
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $1.25
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  XL (20 oz)
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $1.5
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Party-size (24 oz, decaf)
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $1.75
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Iced Coffee (16 oz)
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $1.25
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Espresso</h3>
+            <ul class="card__list">
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Macchiato
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $2.25
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Cortado
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $2.5
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Mocha
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $3
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Sunrise in the Bay Area (decaf)
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $10
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Baked Goods</h3>
+            <ul class="card__list">
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Almond Croissant
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $2
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Banana Bread
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $1.75
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Key Lime Pie
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $3
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Blue Velvet Cake
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $3.75
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Web Cookie
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $2
+                </span>
+              </li>
+              <li class="card__list-item">
+                <span class="card__list-item-name">
+                  Fresh Bug’uette
+                </span>
+                <span class="card__list-divider"></span>
+                <span class="card__list-item-price">
+                  $0.25
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- End of menu -->
+      <!-- About section -->
+      <section class="about" id="about">
+        <h2 class="about__title">About the coffee shope</h2>
+        <div class="about__content">
+          <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6
+            tables and free WiFi</p>
+          <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+          <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we
+            don't sell single-use cups. But you can buy one of our reusable cups!</p>
+        </div>
+        <div class="about__circle"></div>
+        <div class="about__circle_animation_blurred"></div>
+      </section>
+      <!-- End of about -->
     </main>
-    <footer class="footer" id="contacts"></footer>
+    <!-- End of main -->
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+      <div class="footer__content">
+        <img src="./images/logo_coffeeshop_light.svg" alt="Tripleten image" class="footer__logo">
+        <div class="footer__column">
+          <h3 class="footer__social-heading">Social media</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <img src="./images/facebook_white.svg" alt="Facebook image" class="footer__social-icon">
+              <a href="#" class="footer__social-link">Facebook</a>
+            </li>
+            <li class="footer__list-item">
+              <img src="./images/instagram_white.svg" alt="Instagram image" class="footer__social-icon">
+              <a href="#" class="footer__social-link">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">© 2024 Habib Abdelgaber</p>
+    </footer>
+    <!-- End of footer -->
   </div>
 </body>
 

@@ -1,0 +1,124 @@
+.header {
+  background-color: #ffffff;
+  background-image: url('../images/background_header.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px 30px 30px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+}
+.header__title {
+  margin: 183px 0 28px 80px;
+  max-width: 729px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3F96F3;
+
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 80px;
+  margin-bottom: 28px;
+  max-width: 683px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+  margin: auto 80px 40px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  margin: 0;
+  top: 0px;
+  right: -100px;
+  margin-top: 124px;
+  margin-right: 5px;
+  display: block;
+  transform: scale(0.7);
+
+}
+.header__footer-heading {
+  margin: 0;
+  font-size: inherit;
+}
+.header__footer-list {
+  margin-top: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__list-item {
+  font-size: inherit;
+  color: #6F6F6F;
+}
+
+.content{
+  margin: 0;
+}
