@@ -5,16 +5,18 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  padding: 1px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .menu__title {
   margin: 0 auto;
   margin-top: 100px;
   text-align: center;
-  font-weight: bold;
   max-width: 780px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -26,7 +28,7 @@
   margin-top: 24px;
   text-align: center;
   max-width: 780px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -39,61 +41,4 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
-}
-
-.card {
-  margin: 0;
-  padding: 0;
-  width: 540px;
-}
-
-.card__title {
-  margin: 0 0 32px 0;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
-}
-
-.card__list-item span {
-  display: block;
-}
-.card__list-item {
-  margin: 0;
-  display: flex;
-  align-items: center;
-
-}
-
-.card__list-item-name {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__list-divider {
-  height: .5px;
-  flex-grow: 1;
-  background-color: #888;
-}
-
-.card__list-item-price {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
 }
