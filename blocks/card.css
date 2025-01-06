@@ -23,9 +23,6 @@
   row-gap: 16px;
 }
 
-.card__list-item span {
-  display: block;
-}
 .card__list-item {
   margin: 0;
   display: flex;
@@ -33,16 +30,16 @@
 
 }
 
-
-
 .card__list-divider {
+  display: block;
   margin: 0 auto;
-  border-bottom: solid #000;
+  border-bottom: 1px solid #000;
   align-self: flex-end;
   flex-grow: 0.95;
 }
 
 .card__list-item-name, .card__list-item-price {
+  display: block;
   font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
