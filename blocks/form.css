@@ -3,17 +3,14 @@
   margin-top: 80px;
   max-width: 385px;
 }
-
 .form__fieldset {
   margin: 0;
   padding: 0;
   border: none;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .form__label {
   display: block;
   margin-bottom: 8px;
@@ -24,7 +21,6 @@
   line-height: 20px;
   color: #000;
 }
-
 .form__input {
   width: 385px;
   color: #000;
@@ -35,7 +31,6 @@
   margin-bottom: 32px;
   padding: 15px 20px;
 }
-
 .form__input::placeholder,
 .form__input::-webkit-input-placeholder,
 .form__input::-moz-placeholder,
@@ -48,11 +43,9 @@
   line-height: 30px;
   color: #838383;
 }
-
 .form__input:focus {
   outline: none;
 }
-
 .form__label_checkbox_content {
   margin: 0;
   display: flex;
@@ -61,18 +54,15 @@
   gap: 12px;
   position: relative;
 }
-
 .form__input_type_checkbox {
   display: none;
 }
-
 .form__input_custom_checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
   background-color: #fff;
 }
-
 .form__input_type_checkbox:checked + .form__input_custom_checkbox {
   background-color: #1878dc;
   background-image: url("../images/check.svg");
@@ -84,7 +74,6 @@
 .form__input_type_checkbox:checked + .form__input_custom_checkbox::after {
   opacity: 1;
 }
-
 .form__label_checkbox_content .form__label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -93,7 +82,6 @@
   line-height: 20px;
   margin-bottom: 0;
 }
-
 .form__button {
   padding: 20px 0;
   width: 385px;
@@ -104,7 +92,6 @@
   border-radius: 4px;
   cursor: pointer;
   text-align: center;
-
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -112,7 +99,6 @@
   line-height: 20px;
   transition: background-color 0.5s linear;
 }
-
 .form__button:hover {
   background-color: #3f96f3;
 }

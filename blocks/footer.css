@@ -1,12 +1,11 @@
 .footer {
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   display: flex;
   flex-direction: column;
 }
 
 .footer__content {
   margin: 60px 80px 0;
-
   display: flex;
   justify-content: space-between;
 }
@@ -35,7 +34,6 @@
   list-style: none;
   padding: 0;
   margin: 0;
-
   display: flex;
   flex-direction: column;
   row-gap: 16px;
@@ -67,7 +65,6 @@
 .footer__social-link:hover {
   opacity: 0.7;
 }
-
 
 .footer__copyright {
   margin: 0;

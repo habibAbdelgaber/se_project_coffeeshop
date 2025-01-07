@@ -1,7 +1,7 @@
 .header {
   margin: 0;
   background-color: #ffffff;
-  background-image: url('../images/background_header.svg');
+  background-image: url("../images/background_header.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,7 +11,6 @@
   flex-direction: column;
   position: relative;
 }
-
 
 .header__content {
   display: flex;
@@ -27,7 +26,6 @@
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
-
 }
 
 .header__span-accent {
@@ -37,8 +35,7 @@
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
-  color: #3F96F3;
-
+  color: #3f96f3;
 }
 
 .header__description {
@@ -61,7 +58,6 @@
   position: absolute;
   top: 124px;
   right: 5px;
-
 }
 
 .header__footer {
@@ -84,4 +80,3 @@
   line-height: 20px;
   color: #6f6f6f;
 }
-
